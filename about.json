@@ -1,0 +1,7 @@
+{
+    "name": "Dgraph Discuss Theme",
+    "component": false,
+    "license_url": "https://github.com/dgraph-io/discuss-theme/blob/master/LICENSE",
+    "about_url": "https://github.com/dgraph-io/discuss-theme",
+    "authors": "Dgraph Labs"
+  }
