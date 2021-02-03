@@ -1,0 +1,36 @@
+.wiki .topic-body {
+    background-color: #f4ffdc; /*light green. Default: dcffdc*/
+}
+
+.post-info.edits .wiki::before {
+    content: "WIKI";
+    color: green;
+    background-color: #d2e2d2;
+    margin-right: 3px;
+    font-weight: bold;
+    border: 1px solid green;
+    padding: 3px;
+}
+
+#login-buttons {
+    .btn.btn-social.github {
+        order: 1;
+        // on desktop, margin-top is set.
+    }
+    .btn.btn-social.google_oauth2 {
+        order: 2;
+    }
+    .btn.btn-social.twitter {
+        order: 3;
+    }
+    .btn.btn-social.facebook {
+        order: 4;
+        margin-top: 0.35em !important;
+    }
+    .btn.btn-social.slack {
+        order: 5;
+    }
+    .btn.login-with-email-button {
+        order: 6;
+    }
+}

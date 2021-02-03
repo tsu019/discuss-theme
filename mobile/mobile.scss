@@ -1,0 +1,28 @@
+#top-navbar {
+    background-color: #FAFAFA;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#top-navbar-links {
+    display: table;
+    margin: auto;
+}
+
+#top-navbar iframe {
+    margin-top:10px;
+    margin-left:10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#top-navbar span {
+    font-size:16px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+#top-navbar .widget {
+    padding-top: 3px;
+}
